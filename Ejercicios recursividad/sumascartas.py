@@ -24,7 +24,7 @@ def veinteyuna(lista):
         return sacarterminosasumar(lista)
     else:
         if iterarlista(lista)==False:
-            return "paila mi perro no se puede hacer eso"
+            return ""
 
 def sacarterminosasumar(lista):
     if len(lista)!=1:
