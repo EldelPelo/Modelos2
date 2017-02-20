@@ -9,5 +9,3 @@ def division(m,n):
         return 0
     else:
         return division(m-n, n) + 1
-    
-print(division(12, 3))
