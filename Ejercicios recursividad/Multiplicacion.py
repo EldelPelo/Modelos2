@@ -9,6 +9,3 @@ def multiplicacion(m,n):
         return 0;
     else:
         return m + multiplicacion(m, n-1)
-        
-
-print(multiplicacion(3, 4))
