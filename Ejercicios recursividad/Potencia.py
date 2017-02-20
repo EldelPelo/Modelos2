@@ -8,5 +8,3 @@ def potencia(m,n):
         return 1
     else:
         return m * potencia(m, n-1)
-
-print(potencia(2,2))
